@@ -4,7 +4,7 @@ export default function Tasks({ tasks, onAdd, onDelete }) {
   return (
     <>
       {" "}
-      <section>
+      <section className=" max-lg:pr-4 max-lg:w-full">
         <h2 className="text-2xl font-bold text-stone-700 mb-4">Tasks</h2>
         <NewTask onAdd={onAdd} />
         {tasks.length === 0 && (

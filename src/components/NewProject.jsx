@@ -43,7 +43,16 @@ export default function NewProject({ onAdd, onCancle }) {
           Please make Suer you provide a valid value for every input field.
         </p>
       </Modal>
-      <div className="w-[35rem] mt-16">
+      <div className="w-full mt-16 pr-8 max-lg:pr-4">
+        <div className="flex gap-4 max-lg:block">
+          <div className="w-3/6 max-lg:w-full">
+            <Input type="text" ref={title} label="Title" />
+            <Input type="date" ref={dueDate} label="Due Date" />
+          </div>
+          <div className="w-3/6 textareasInput max-lg:w-full">
+            <Input ref={description} label="Description" textarea />
+          </div>
+        </div>
         <menu className="flex items-center justify-end gap-4 my-4">
           <li>
             <button
@@ -62,11 +71,6 @@ export default function NewProject({ onAdd, onCancle }) {
             </button>
           </li>
         </menu>
-        <div>
-          <Input type="text" ref={title} label="Title" />
-          <Input ref={description} label="Description" textarea />
-          <Input type="date" ref={dueDate} label="Due Date" />
-        </div>
       </div>
     </>
   );

@@ -1,0 +1,7 @@
+.textareasInput p{
+    height: 80%;
+}
+.textareasInput p textarea{
+    height: 100%;
+}
+

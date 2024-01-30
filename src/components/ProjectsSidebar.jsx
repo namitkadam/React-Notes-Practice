@@ -8,7 +8,7 @@ export default function ProjectsSidebar({
   SelectedProjectId,
 }) {
   return (
-    <aside className="w-1/3 px-8 py-16 bg-stone-900 text-slate-50 md:w-72 rounded-r-xl">
+    <aside className="w-2/5 px-8 py-16 bg-stone-900 text-slate-50 md:w-72 rounded-r-xl max-lg:px-2 max-lg:py-8">
       <h2 className="mb-8 font-bold uppercase md:text-xl text-stone-200">
         Your Projects
       </h2>
