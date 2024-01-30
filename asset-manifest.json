@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Notes-Practice/static/css/main.9bd0320d.css",
-    "main.js": "/React-Notes-Practice/static/js/main.aca82f6b.js",
+    "main.css": "/React-Notes-Practice/static/css/main.a911db05.css",
+    "main.js": "/React-Notes-Practice/static/js/main.bc076c33.js",
     "static/js/787.7dc739dc.chunk.js": "/React-Notes-Practice/static/js/787.7dc739dc.chunk.js",
     "static/media/no-Project.png": "/React-Notes-Practice/static/media/no-Project.47d549b0b0c78f37e2a8.png",
     "index.html": "/React-Notes-Practice/index.html",
-    "main.9bd0320d.css.map": "/React-Notes-Practice/static/css/main.9bd0320d.css.map",
-    "main.aca82f6b.js.map": "/React-Notes-Practice/static/js/main.aca82f6b.js.map",
+    "main.a911db05.css.map": "/React-Notes-Practice/static/css/main.a911db05.css.map",
+    "main.bc076c33.js.map": "/React-Notes-Practice/static/js/main.bc076c33.js.map",
     "787.7dc739dc.chunk.js.map": "/React-Notes-Practice/static/js/787.7dc739dc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bd0320d.css",
-    "static/js/main.aca82f6b.js"
+    "static/css/main.a911db05.css",
+    "static/js/main.bc076c33.js"
   ]
 }
